@@ -5,17 +5,20 @@ html
     title Node/Express.js Template
     link(rel='stylesheet', href='/css/style.css')
   body
-    h1 Node/Express.js Template
-    nav
-      ul
-        li: a(href='/') Home
+    h1 Browser Games
+    .wrapper
+      nav
+        ul
+          li: a(href='/') Home
+          li: a(href='/colors') Colors
+          li: a(href='/pacman') PacMan
 
-    block content
+      block content
 
-    script(src='/js/vendor/jquery-2.1.1.min.js')
-    script(src='/js/vendor/lodash.min.js')
-    script(src='/js/vendor/moment.min.js')
-    script(src='/js/user/main.js')
+      script(src='/js/vendor/jquery-2.1.1.min.js')
+      script(src='/js/vendor/lodash.min.js')
+      script(src='/js/vendor/moment.min.js')
+      script(src='/js/user/main.js')
 
     block scripts
 
