@@ -1,32 +1,12 @@
-## name of project
+## Browser games
 ### Code Badges
-build status icon
-coverage status icon
 
 ### About
-write a description about your project
-
-### Models
-```
-Model 1
-prop-a
-prop-b
-.classMethod-c
-#instanceMethod-d
-```
-
-```
-Model 2
-prop-e
-prop-f
-.classMethod-g
-#instanceMethod-h
-```
+An introduction to jQuery by way of games.
 
 ### Features
-- feature 1
-- feature 2
-- feature 3
+- Creating Color Boxes which also chane the background
+- Pixelator: Painting with jQuery
 
 ### Running Tests
 ```bash
